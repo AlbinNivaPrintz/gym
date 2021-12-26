@@ -54,6 +54,12 @@ register(
     max_episode_steps=500,
 )
 
+register(
+    id="TorqueDoublePendulum-v1",
+    entry_point="gym.envs.classic_control:TorqueDoublePendulum",
+    max_episode_steps=1000,
+)
+
 # Box2d
 # ----------------------------------------
 
